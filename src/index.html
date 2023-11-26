@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    
+
+</head>
+<body class="bg-slate-900">
+    <header class="bg-white bg-opacity-5 text-white shadow-lg max-sm:hidden transition-all z-40 block top-0">
+  <div class="container mx-auto flex items-center h-24">
+    <a href="" class="flex items-center justify-center">
+      <span class="ml-4 uppercase font-poppins font-bold text-lg">Arif <span class="text-teal-400" >Fadhilah</span></span>
+    </a>
+    <nav class="contents font-semibold text-base lg:text-lg">
+      <ul class="mx-auto flex items-center">
+        <li class="p-5 xl:p-8 active ">
+          <a href="#home">
+            <span>Home</span>
+          </a>
+        </li>
+        <li class="p-5 xl:p-8">
+          <a href="#about">
+            <span>About</span>
+          </a>
+        </li>
+        <li class="p-5 xl:p-8">
+          <a href="#project">
+            <span>Projects</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <button class="border border-white rounded-full font-bold px-8 py-2"><a href="#kontak"> Contact me </a></button>
+  </div>
+</header>
+<section class="dark:bg-gray-800 dark:text-gray-100" id="home">
+	<div class="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
+		<div class="flex flex-col justify-center ml-14 p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+			<h1 class="text-3xl font-bold  sm:text-6xl">HI, I'm <br> Arif Fadhilah
+			</h1>
+			<h1 class="mt-6 mb-1 text-3xl text-teal-500 sm:mb-12">Front End Developer</h1>
+			<div class="flex flex-col space-y-4 sm:items-center max-md:hidden sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
+				<img src="/assets/html.png" alt="" class=" h-9 w-auto ">
+				<img src="/assets/css.png" alt="" class=" h-9 w-auto">
+				<img src="/assets/php.png" alt="" class=" h-9 w-auto">
+				<img src="/assets/js.png" alt="" class=" h-9 w-auto">
+				<img src="/assets/react.png" alt="" class=" h-9 w-auto">
+			</div>
+		</div>
+        <div class=" flex items-center justify-center h-60 w-60 max-md:m-32 max-md:left-[50%] md:h-96 md:w-60 bg-teal-800 md:bg-opacity-0 max-md:rounded-full max-md:overflow-hidden  " >
+            <div class="absolute top-[45%] right-[27%] h-24 w-24 rounded-full bg-teal-400 max-lg:invisible"></div>
+            <div class="absolute top-[72%] right-[10%] h-16 w-16 rounded-full bg-teal-600 max-lg:invisible"></div>
+            <div class="absolute top-[79%] right-[13%] h-10 w-10 rounded-full bg-teal-800 max-lg:invisible"></div>
+            <div class="absolute top-[67%] right-[33%] h-20 w-20 rounded-full bg-teal-600 max-lg:invisible"></div>
+            <div class="absolute top-[39%] h-32 w-32 right-40 rounded-full max-lg:invisible" style=" background-image:url('/assets/bg.jpg') ;"></div>
+            <div class="absolute top-[74%] right-[23%] h-32 w-32 rounded-full bg-opacity-10 max-lg:invisible" style=" background-image:url('/assets/bg.jpg') ;"></div>
+            <img src="/assets/mprofile.png" alt="" class="object-contain h-96 w-auto md:absolute top-40 right-[10%]">
+		</div>
+	</div>
+</section>
+<section id="about" class="dark:bg-gray-950 dark:text-gray-100">
+    <h1 class="text-3xl pt-12 font-mono text-teal-900 text-center md:font-bold sm:text-6xl">About Me</h1>
+    <div class="px-28 pt-20 pb-40 font-serif text-lg h-full w-auto mb-0 max-sm:text-sm">
+        <p>I am <span class="font-bold text-teal-950"> Arif Ahmad Fadhilah </span>
+            , I was born in Padang on February 21 2003. Now I live in Yogyakarja and am currently studying at UPN Veteran Yogyakarta. 
+            I am a student majoring in informatics and am very interested in the field of web development, especially in the front end developer section. 
+            I am also active in a study group, namely the Information Technology Club, since August 2023. 
+            I learned more about front end developers in the ITC study group. As a front end developer, I am used to working on small projects related to 
+            implementing designs on website displays using web programming languages ​​such as HTML, CSS, Javascript and related frameworks.</p>
+    </div>
+</section>
+
+<section id="kontak" class="dark:bg-sky-950 dark:text-gray-100">
+    <h1 class="text-3xl mt-10 pt-12 text-teal-900 text-center md:font-black sm:text-6xl">My Contact</h1>
+    <div class="flex items-center justify-center my-10 flex-row sm:space-y-0 sm:space-x-4 lg:justify-center">
+				<a href=""><img src="/assets/twitter.png" alt="" class=" h-10 w-auto "></a>
+				<a href=""><img src="/assets/instagram.png" alt="" class=" h-10 w-auto"></a>
+				<a href=""><img src="/assets/linkedin.png" alt="" class=" h-10 w-auto"></a>
+				<a href="https://github.com/arifahmad21"><img src="/assets/github.png" alt="" class=" h-10 w-auto"></a>
+			</div>
+</section>
+
+</body>
+</html>
